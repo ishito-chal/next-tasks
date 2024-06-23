@@ -34,3 +34,6 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+#機密情報は.envファイルで管理し、gitにアップロードしないようにする
+.env
